@@ -1,0 +1,129 @@
+
+/*.gate-container{
+    
+    background-color: black;
+    height:100%;
+    width:100%;
+}
+.list-profiles{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+
+    
+}.profile-gate-label{
+    color:white;
+}
+.profile-gate{
+    display: flex;
+    flex-direction: column;
+   
+    gap:1.5rem;
+    color:black;
+    width: 50%;
+  
+  }
+  
+  .boxes {
+    display: flex;
+    justify-content:space-between;
+    
+    margin-bottom: 10px;
+    margin-top:-20px;
+    padding: 0 20px;
+
+    
+   
+  } 
+  
+  .mov-box {
+    flex: 1;
+    margin: 0 5px;
+    
+    
+    background-size: cover;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem rgba(255,255, 255, 0.3);
+    font-size: 0.5rem;
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 124px;
+   
+    
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    border-radius:10px;
+    
+  }*/
+  .gate-container {
+    background-color: black;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-profiles {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:-140px;
+}
+
+.profile-gate-label {
+    color: white;
+    margin:34px;
+    
+}
+.
+.profile-gate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    color: black;
+    width: 50%;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mov-box {
+    flex: 0 0 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    margin: 0 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    border-radius: 10px;
+    
+}
+.mov-box:hover {
+    border: 2px solid white;
+}
+.profile-button {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
